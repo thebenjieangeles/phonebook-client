@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/",
   plugins: [react()],
   server: {
-    proxy: "http://localhost:8080",
+    proxy: "/phonebook-client/",
   },
 });
