@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:8080/api/login";
+const baseUrl = "https://phonebook-backend-let6.onrender.com";
 
 function login(credentials) {
   return axios.post(baseUrl, credentials).then((res) => res.data);
