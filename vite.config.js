@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/phonebook-client/",
   plugins: [react()],
   server: {
-    proxy: "/phonebook-client/",
+    proxy: "https://phonebook-backend-let6.onrender.com",
   },
 });
